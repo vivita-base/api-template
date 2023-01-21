@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "nodejs-api",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-useragent": "^1.0.13",
+    "mysql": "github:mysqljs/mysql",
+    "ws": "^8.12.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "local": "setEnv=Local port=3082 npx nodemon",
+    "sandbox": "setEnv=LocalSandbox port=3083 npx nodemon"
+  },
+  "author": "",
+  "license": "ISC"
+}
